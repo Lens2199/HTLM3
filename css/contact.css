@@ -1,0 +1,32 @@
+.container-contact {
+  display: flex;
+  justify-content: space-between; /* Positions child elements at ends */
+  align-items: center; /* Vertically centers items */
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+h1 {
+  margin: 0; /* Removes default margin for better centering */
+  text-align: center; /* Ensures text inside is centered */
+  flex-grow: 1; /* Allows the h1 to occupy available space */
+}
+
+.nav {
+  list-style: none; /* Removes default list bullets */
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+
